@@ -19,7 +19,6 @@
         }
         $(document).scroll(function() { 
             scroll_pos = $(this).scrollTop();
-console.log(scroll_pos,"sss")
             if(scroll_pos >= element_pos) {
                 $("header").css('background-color', 'black');
                 $("header").css('opacity', '.9');
